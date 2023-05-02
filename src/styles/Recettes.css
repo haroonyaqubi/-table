@@ -1,0 +1,30 @@
+.card{
+    height: 300px;
+    width: 50%;
+    text-align: center;
+}
+.card-content{
+    width: 600px;
+    height: 400px;
+    padding: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    overflow: auto;
+    padding: 1rem 1rem;
+    border: solid;
+
+}
+.img{
+    border-radius: 2rem;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 300px;
+    text-align: center;
+}
